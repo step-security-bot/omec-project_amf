@@ -19,3 +19,8 @@ updates:
       day: "sunday"
       time: "21:00"
       timezone: "America/Los_Angeles"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
